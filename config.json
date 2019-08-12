@@ -1,0 +1,11 @@
+{
+  "baseConfig": "trifid:config-fetch.json",
+  "handler": {
+    "root": {
+      "options": {
+        "url": "file:./node_modules/tbbt-ld/dist/tbbt.nq",
+        "contentType": "application/n-quads"
+      }
+    }
+  }
+}
